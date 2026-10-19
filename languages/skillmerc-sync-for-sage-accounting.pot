@@ -1,0 +1,219 @@
+# Copyright (C) 2026 Skillmerc
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Skillmerc Sync for Sage Accounting 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/skillmerc-sync-for-sage-accounting\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-19T05:14:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: skillmerc-makepot\n"
+"X-Domain: skillmerc-sync-for-sage-accounting\n"
+
+#: skillmerc-sync-for-sage-accounting.php:64
+msgid "Settings"
+msgstr ""
+
+#: includes/class-skm-ssa-oauth.php:87 includes/class-skm-ssa-oauth.php:104
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:37
+msgid "Sage Sync"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:166
+msgid "Connect to Sage Accounting"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:171
+msgid "Create a free app at %1$s (sign in with GitHub or Google, then \"Create App\"). Enter this callback URL in the app: %2$s . Paste the app's Client ID and Client Secret below, save, then click Connect."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:177
+msgid "Client ID"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:184
+msgid "Client Secret"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:191
+msgid "Connection"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:205 includes/class-skm-ssa-settings.php:271
+msgid "Accounts and VAT"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:209
+msgid "Could not load your Sage accounts: %s"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:226
+msgid "Sync"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:229
+msgid "Orders are sent in the background a few seconds after they reach one of these statuses. Failed sends retry up to 5 times (5 minutes, 30 minutes, 2 hours, 6 hours). Each order also gets a \"Sync to Sage now\" order action."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:232
+msgid "Send orders when status is"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:240
+msgid "Record the payment"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:243
+msgid "Create a customer receipt in the bank account above, so the invoice shows as paid."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:247
+msgid "Debug log"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:251
+msgid "Write extra detail to WooCommerce > Status > Logs (source: %s). Errors are always logged."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:268
+msgid "Choose..."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:276
+msgid "Sales ledger account"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:282
+msgid "Products and fees go to this account."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:285
+msgid "Shipping ledger account"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:293
+msgid "Bank account for payments"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:299
+msgid "Where the customer receipt is recorded, for example the bank account your payment gateway pays out to."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:302
+msgid "VAT rate for taxed lines"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:309
+msgid "VAT rate for untaxed lines"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:319
+msgid "Map WooCommerce rate: %s"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:322
+msgid "Use the VAT rate for taxed lines"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:344
+msgid "Saved. Leave empty to keep it."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:365
+msgid "Connected to %s."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:368
+msgid "Disconnect"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:370 includes/class-skm-ssa-settings.php:394
+msgid "Save your Client ID and Client Secret first."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:372
+msgid "Connect to Sage"
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:390
+msgid "Connected to Sage Accounting. Check the ledger accounts and VAT rates below, then save."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:391
+msgid "Disconnected from Sage Accounting."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:392
+msgid "Sage did not authorise the connection."
+msgstr ""
+
+#: includes/class-skm-ssa-settings.php:393
+msgid "Connecting to Sage failed. Check the Client ID, Client Secret and callback URL, then see WooCommerce > Status > Logs."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:160
+msgid "Sage sync attempt %1$d failed: %2$s. Trying again in %3$d minutes."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:163
+msgid "Sage sync stopped after attempt %1$d: %2$s. Fix the cause, then use the order action \"Sync to Sage now\"."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:176
+msgid "Sync to Sage now"
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:188
+msgid "Already in Sage, nothing to send."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:194
+msgid "Sage sync failed: %s"
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:208
+msgid "Order currency %1$s differs from the Sage base currency %2$s. Version 0.1 only sends orders in the base currency."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:212
+msgid "Choose the sales and shipping ledger accounts in the Sage Sync settings."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:271
+msgid "No address given"
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:300
+msgid "WooCommerce customer"
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:474
+msgid "Shipping: %s"
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:484
+msgid "WooCommerce order %s"
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:544
+msgid "Sage sales invoice %1$s created (total %2$s)."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:547
+msgid "Warning: the WooCommerce order total is %s. Check the tax mapping."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:603
+msgid "Choose the Sage bank account for payments in the Sage Sync settings."
+msgstr ""
+
+#: includes/class-skm-ssa-sync.php:618
+msgid "Payment of %1$s recorded in Sage against invoice %2$s."
+msgstr ""
